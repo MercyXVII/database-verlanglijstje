@@ -1,45 +1,54 @@
+body{
+  margin: 0;
+}
+
 table {
   border-collapse: collapse;
   width:100%;
-  color: #588c7e;
+  color: black;
   font-family: monospace;
-  font-size: 25px;
+  font-size: 15px;
   text-align: left;
 }
 
 th {
-  background-color: #588c7e;
+  background-color: red;
   color: white;
 }
  tr:nth-child(even) {
-   background-color: #f2f2f2;
+   background-color: #ffcccb;
  }
 
 #button {
   font-family: monospace;
-  font-size: 25px;
+  font-size: 15px;
   width:100%;
-  background-color: #f2f2f2;
+  background-color: #ffcccb;
+  text-decoration: none;
+  border: 2px solid red;
+  padding: 5px;
+  border-radius: 12px;
 }
 
-input[type="text" type="number"] {
+input[type="text"], input[type="number"] {
   display: block;
   font-family: monospace;
   margin: 0 auto;
 }
+
 
 
 input[type="submit"] {
   display: block;
   font-family: monospace;
   margin: 0 auto;
-  background-color: #f2f2f2;
-  color: #588c7e;
+  background-color: #ffcccb;
+  color: red;
   border-radius: 12px;
 }
 
 label {
-  color: #588c7e;
+  color: red;
   font-family: monospace;
   display: block;
   border-collapse: collapse;
@@ -49,10 +58,6 @@ label {
 h1 {
   color: white;
   font-family: monospace;
-  background-color: #588c7e;
+  background-color: red;
   text-align:center;
-}
-
-#addnew {
-  background-color: #f2f2f2;
 }

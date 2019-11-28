@@ -5,10 +5,13 @@
   {
     require_once("config.php");
 
-    $artist = $_POST['artist'];
-    $title = $_POST['title'];
+    $product = $_POST['product'];
+    $prijs = $_POST['prijs'];
+    $locatie = $_POST['locatie'];
+    $omschrijving = $_POST['omschrijving'];
+    $webadres = $_POST['webadres'];
 
-    $query = "INSERT INTO songs (artist, title) VALUES ('$artist', '$title')";
+    $query = "INSERT INTO lijstje (product, prijs, locatie, omschrijving, webadres) VALUES ('$product', '$prijs', '$locatie', '$omschrijving', '$webadres')";
     mysqli_query($conn, $query);
 
     if(!$query)

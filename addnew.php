@@ -5,7 +5,7 @@
     <title>insert data</title>
     <link rel="stylesheet" href="./CSS/master.css">
   </head>
-  <body id="addnew">
+  <body>
     <h1>Add a product</h1>
     <?php require_once("includes/insert.php") ?>
 
@@ -17,12 +17,9 @@
       <label for="locatie">Locatie:</label>
       <input type="text" name="locatie">
       <label for="omschrijving">Omschrijving:</label>
-      <input type="text" name="omschrijving"> <br>
-
-
-
-
-
+      <input type="text" name="omschrijving">
+      <label for="webadres">Webadres:</label>
+      <input type="text" name="webadres"> <br>
       <input type="submit" name="submit" value="Add product">
     </form>
   </body>

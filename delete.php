@@ -5,7 +5,7 @@
   if(isset($_GET['id'])) {
 
     $id = $_GET['id'];
-    $sql = "DELETE FROM songs WHERE id = '$id'";
+    $sql = "DELETE FROM lijstje WHERE id = '$id'";
     $result = $conn->query($sql);
 
     if ($sql) {
