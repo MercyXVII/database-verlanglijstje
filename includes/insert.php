@@ -21,8 +21,9 @@
       echo "Inserted";
       header("Location: index.php");
     }
-
   }
+  
+
 
 
  ?>
